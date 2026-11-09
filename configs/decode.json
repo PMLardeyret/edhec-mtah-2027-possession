@@ -1,0 +1,7 @@
+{
+ "min_poss_s": 1.5,
+ "min_dead_s": 6.0,
+ "cost_ha": 0.5,
+ "cost_d": 2.0,
+ "alpha": 3.0
+}

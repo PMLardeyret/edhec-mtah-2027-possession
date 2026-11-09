@@ -1,0 +1,26 @@
+# data never versioned
+external/
+work/
+private_data/
+*.parquet
+*.npy
+*.npz
+# outputs
+submissions/
+reports/
+__pycache__/
+.venv/
+.env
+*.pyc
+data/
+*.csv
+!configs/dfl_sha256.csv
+*.xml
+*.mp4
+*_atd.*
+*_homography.*
+*_smart_tagging.*
+.env.*
+*.pem
+*.key
+.claude/settings.local.json

@@ -1,0 +1,79 @@
+{
+ "in_play_loss": 0.0466,
+ "dead_loss": 0.8441,
+ "gap_mu": 2.1921,
+ "gap_sigma": 1.6985,
+ "profil": {
+  "fc": 2.5,
+  "sigma": 0.0
+ },
+ "n_trous": 150,
+ "bords": {
+  "fc": false,
+  "sigma": true,
+  "grille_fc": [
+   0.1,
+   0.2,
+   0.3,
+   0.5,
+   0.8,
+   1.0,
+   1.5,
+   2.5,
+   4.0,
+   6.0,
+   9.0,
+   12.0
+  ],
+  "grille_sigma": [
+   0.0,
+   0.001,
+   0.003,
+   0.008,
+   0.015,
+   0.03
+  ]
+ },
+ "source": "Metrica sample-data (3 matches): missing-ball rate per game state, in-play gap lengths, ball-motion profile targets; track presence and cuts drawn per seed from wide a priori ranges (not fitted).",
+ "modules": [],
+ "modules_source": "none retained (no extra feature module)",
+ "cache_name": "s4",
+ "source_poids": "s4",
+ "tour": 4,
+ "extra_ball_loss": 0.04,
+ "extra_ball_loss_source": "a-priori choice, not tuned",
+ "mean_dropout": 450,
+ "min_piece": 125,
+ "source_degradation": "mean_dropout and min_piece chosen on the 7 IDSSE matches (leave-one-match-out, mean span-F1 'aligned', rule fixed beforehand: best mean wins, no significance threshold; scores in configs/degradation_selection.json)",
+ "stick": 0.8,
+ "short_poss": 1.6,
+ "b": -1.036,
+ "b_source": "median over the 7 IDSSE folds (decoded share of D = true share of D), search interval widened until no fold sits on a bound",
+ "b_par_pli": [
+  -3.42,
+  -2.946,
+  -0.968,
+  -0.001,
+  1.273,
+  -1.036,
+  -2.049
+ ],
+ "b_plis_sur_borne": [],
+ "grille_stick": [
+  0.1,
+  0.2,
+  0.3,
+  0.4,
+  0.8,
+  1.6
+ ],
+ "grille_short_poss": [
+  0.2,
+  0.4,
+  0.6,
+  0.8,
+  1.6,
+  3.2
+ ],
+ "grille_sans_pli_sur_borne": true
+}

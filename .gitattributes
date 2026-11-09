@@ -1,0 +1,4 @@
+* text=auto eol=lf
+models/** -text
+configs/** -text
+requirements.lock -text

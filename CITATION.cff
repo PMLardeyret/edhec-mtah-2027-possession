@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this code, please also cite the data sources listed in README.md."
+title: "Frame-level possession labelling (H/A/D) trained on degraded open tracking data"
+type: software
+license: MIT
+authors:
+  - name: "EDHEC"
+references:
+  - type: dataset
+    authors:
+      - family-names: Bassek
+        given-names: Manuel
+    title: "An integrated dataset of spatiotemporal and event data in elite soccer (IDSSE)"
+    year: 2025
+    doi: 10.6084/m9.figshare.28196177.v1
+    license: CC-BY-4.0
+    notes: "Bassek et al. (2025); complete the author list from the data-set landing page."
+  - type: dataset
+    title: "Metrica Sports sample-data"
+    url: "https://github.com/metrica-sports/sample-data"
+    notes: "Commit e706dd506b360d69d9d123d5b8026e7294b13996"
